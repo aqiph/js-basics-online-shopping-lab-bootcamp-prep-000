@@ -28,6 +28,7 @@ function viewCart() {
     message = message + ` ${cart[i]['itemName']} at $${cart[i]['itemPrice']},`
   }
   message = message + ` and ${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`
+  return message;
 }
 
 function total() {
