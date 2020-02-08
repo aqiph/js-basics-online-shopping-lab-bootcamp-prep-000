@@ -33,8 +33,9 @@ function viewCart() {
 function total() {
   let totalValue = 0;
   for (let item in cart){
-    
+    totalValue += item[itemPrice];
   }
+  return totalValue
 }
 
 function removeFromCart(item) {
