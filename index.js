@@ -35,11 +35,11 @@ function total() {
   for (let item in cart){
     totalValue += item[itemPrice];
   }
-  return totalValue
+  return totalValue;
 }
 
 function removeFromCart(item) {
-  // write your code here
+  
 }
 
 function placeOrder(cardNumber) {
