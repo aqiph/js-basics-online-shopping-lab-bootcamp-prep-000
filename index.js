@@ -57,3 +57,9 @@ function placeOrder(cardNumber) {
   cart = [];
   return `Your total cost is $${price}, which will be charged to the card ${cardNumber}.`
 }
+
+
+addToCart('a')
+addToCart('a')
+console.log(viewCart())
+console.log(placeOrder())
