@@ -11,11 +11,13 @@ function setCart(c) {
 
 function addToCart(item) {
   let price = Math.floor(Math.random()*100);
-  let newItem = {itemName: item, itemPrice: price}
+  let newItem = {itemName: item, itemPrice: price};
+  cart.push(newItem)
+  return `${item} has been added to your cart.`
 }
 
 function viewCart() {
-  // write your code here
+  let message = 'In '
 }
 
 function total() {
