@@ -60,6 +60,6 @@ function placeOrder(cardNumber) {
 
 
 addToCart('a')
-addToCart('a')
+addToCart('b')
 console.log(viewCart())
 console.log(placeOrder())
