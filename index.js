@@ -17,7 +17,10 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  let message = 'In '
+  if (cart.length === 0){
+    return ''
+  }
+  let message = 'In your cart, you have'
 }
 
 function total() {
