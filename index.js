@@ -31,7 +31,10 @@ function viewCart() {
 }
 
 function total() {
-  // write your code here
+  let totalValue = 0;
+  for (let item in cart){
+    
+  }
 }
 
 function removeFromCart(item) {
