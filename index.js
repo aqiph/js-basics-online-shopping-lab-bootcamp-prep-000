@@ -62,4 +62,5 @@ function placeOrder(cardNumber) {
 addToCart('a')
 addToCart('b')
 console.log(viewCart())
+console.log(total())
 console.log(placeOrder())
