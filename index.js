@@ -34,9 +34,8 @@ function viewCart() {
 function total() {
   let totalValue = 0;
   for (let item in cart){
+    console.log(item.itemPrice);
     totalValue += item.itemPrice;
-    console.log(totalValue)
-    console.log(item.itemPrice)
   }
   return totalValue;
 }
@@ -64,5 +63,6 @@ function placeOrder(cardNumber) {
 addToCart('a')
 addToCart('b')
 console.log(viewCart())
+console.log(fgetCart)
 console.log(total())
 console.log(placeOrder())
